@@ -32,10 +32,10 @@ function runProject(e) {
 }
 
 const portfolioData = [
-  [ "Weather App","Week 1", "A simple weather application", "HTML, CSS, JavaScript", "I learned about APIs and how to fetch data.", "./index.html"],
-  [ "To Do List","Week 2", "A simple to-do list application", "HTML, CSS, JavaScript", "I learned about local storage and parsing data.", "./project/js.html"],
+  [ "Weather App","Week 1", "A simple weather application", "HTML, CSS, JavaScript", "I learned about APIs and how to fetch data.", "./weather-app/index.html"],
+  [ "To Do List","Week 2", "A simple to-do list application", "HTML, CSS, JavaScript", "I learned about local storage and parsing data.", "./to-do-list/js.html"],
   [ "Portfolio","Week 3", "A simple portfolio application", "HTML, CSS, JavaScript", "(●'◡'●)", "./portfolio.html"]
-];
+];   
 
 const portfolioContainer = document.getElementById("portfolio-container"); 
 
